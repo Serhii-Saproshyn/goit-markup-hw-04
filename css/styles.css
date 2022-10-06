@@ -81,7 +81,7 @@ footer {
     color: var(--accent-color);
 }
 
-.logo-accent-second {
+.logo-accent-second {   
     color: var(--accent-second);
 }
 .logo-accent-third {
@@ -89,11 +89,19 @@ footer {
 }
 
 .hero{
-    color: var(--main-color) ;
+    max-width: 1600px;
+    height: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    background-image:linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/bcghero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;   
+    color: var(--main-color);
     background-color: var(--back-color-first);
-    text-align: center;
+    text-align: center;  
     padding-top: 200px;
-    padding-bottom: 200px;
+    padding-bottom: 280px;
 }
 
 .hero-title {
@@ -289,10 +297,11 @@ padding: 32px 0;
     padding-bottom: 20px;
 }
 .button {
-    cursor: pointer;
-    
+    cursor: pointer;  
     border-radius: 4px;
+
 }
+
 .button.primary {
     color: var(--main-color);
     background-color: var(--accent-color);
