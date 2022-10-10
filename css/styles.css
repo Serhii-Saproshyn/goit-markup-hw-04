@@ -63,7 +63,7 @@ footer {
  }
 
  .logo.header {
-    padding: 32px 0;
+    padding: 24px 0;
  }
 
 .logo.footer {
@@ -103,7 +103,7 @@ footer {
     background-color: var(--back-color-first);
     text-align: center;  
     padding-top: 200px;
-    padding-bottom: 280px;
+    padding-bottom: 200px;
 }
 
 .hero-title {
@@ -340,7 +340,11 @@ align-items: center;
     margin: 15px;
 }
 
-.examples-container .item:hover, .examples-container .item:focus{
+.examples-container .link{
+    display: block;
+}
+
+.examples-container .link:hover, .examples-container .link:focus{
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
